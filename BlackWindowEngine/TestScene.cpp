@@ -10,7 +10,7 @@ TestScene::TestScene(): SceneManager()
 void TestScene::Create()
 {
 	worldOutliner.AddObject(new Player(FPosition({ 2, 28 }), "Player", "ก่", "Player"));
-	worldOutliner.AddObject(new PushTrap(FPosition({ 15, 15 }), "PushTrap_1", "@@", "PushTrap"));
+	worldOutliner.AddObject(new PushTrap(FPosition({ 17, 15 }), "PushTrap_1", "@@", "PushTrap"));
 	worldOutliner.AddObject(new MovingTrap(FPosition({ 20, 20 }), "MovingTrap_1", "HH", "ก็", "MovingTrap"));
 	worldOutliner.AddObject(new MovingTrap(FPosition({ 25, 20 }), "MovingTrap_2", "HH", "ก็", "MovingTrap"));
 	worldOutliner.AddObject(new MovingTrap(FPosition({ 28, 28 }), "MovingTrap_3", "VV", "ก่", "MovingTrap"));

@@ -87,17 +87,7 @@ void Object::setType(std::string t)
 	this->Type = t;
 }
 
-void Object::Push(std::string Direction)
-{
-	if (Direction == "ก่")
-		Translate({0, -1});
-	if (Direction == "ก็")
-		Translate({-1, 0});
-	if (Direction == "ก้")
-		Translate({0, +1});
-	if (Direction == "กๆ")
-		Translate({+1, 0});
-}
+
 
 void Object::Translate(FPosition p)
 {

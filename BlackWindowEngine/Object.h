@@ -54,8 +54,6 @@ public:
 
 	void setType(std::string t);
 
-	void Push(std::string Direction);
-
 	void Translate(FPosition p);
 
 	void Translate(FPosition p, std::string shape);
