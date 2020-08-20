@@ -65,7 +65,7 @@ void Player::Control()
 			Object* o = WorldOutliner::FindObject("Player");
 
 			Shot(o->GetShape());
-		
+			//WorldOutliner::AddObject(new Canon(GetPosition(), "canon2", "กÜ", "กÛ", Area({ 1,1 }), "ก้"));			}
 		}
 	}
 }
@@ -117,7 +117,15 @@ void Player::Shot(std::string D)
 
 void Player::OnCollision(Object* other)
 {
+	/*Object* o = WorldOutliner::FindObject("canon1");
+	o->SetShape("ac");*/
 
+
+	/*if (dynamic_cast<Canon*>(other))
+		other->SetShape("ac");*/
+
+	//if (dynamic_cast<PushTrap*>(other))
+	//Move(w, true);
 	if (other->getType() == "Wall")
 	{
 		if (w == "ก่")

@@ -3,6 +3,8 @@
 #include "Object.h"
 #include "Tools.h"
 
+std::vector<Object*> WorldOutliner::objects;
+
 void WorldOutliner::AddObject(Object* o)
 {
 	objects.push_back(o);
@@ -56,5 +58,3 @@ std::vector<Object*> WorldOutliner::GetObjects()
 {
 	return objects;
 }
-
-std::vector<Object*> WorldOutliner::objects;
