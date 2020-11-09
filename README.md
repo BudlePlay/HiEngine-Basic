@@ -10,7 +10,10 @@
 
 
 ## Example
-![Example Game](Example.png)
+![Example Game](Example.PNG)
+
+![DemoGame GIF](https://user-images.githubusercontent.com/48788892/98504055-58cb6f00-2299-11eb-96f5-6d5adada5cfb.gif)
+
 ## 사용 방법 
 
 ### LifeCycle
